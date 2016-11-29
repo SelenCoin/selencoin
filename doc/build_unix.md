@@ -30,7 +30,7 @@ sudo apt-get install libqrencode-dev
 ##BUILD
 Daemon
 ```
-git clone https://github.com/drstas72/selencoin.git
+git clone https://github.com/SelenCoin/selencoin.git
 cd selencoin/src
 chmod +x ./leveldb/build_detect_platform
 make -f makefile.unix USE_UPNP=-
@@ -41,7 +41,7 @@ cp ../selen.conf ~/.selen
 
 QT GUI wallet interface
 ```
-git clone https://github.com/drstas72/selencoin.git
+git clone https://github.com/SelenCoin/selencoin.git
 cd selencoin
 chmod +x ./src/leveldb/build_detect_platform
 qmake "USE_UPNP=-"
