@@ -2,7 +2,7 @@
 
 ##Safe, Reliable, Profitable
 
-###Selen Information:
+###SelenCoin Information:
 
 - RPC Port: 55551
 - P2P Port: 55552
@@ -13,6 +13,7 @@
 - Total coins: 159680000<br>
 - Premined coins: 1.25%
 - Block mature: 20 confirmations<br>
+- Block Explorer <a href="http://selencoin.for-biz.com/exp/">http://selencoin.for-biz.com/exp/</a>
 
 ===<br>
 selen.conf
@@ -22,7 +23,6 @@ rpcpassword=password
 rpcallowip=127.0.0.1
 rpcport=55551
 port=55552
-addnode=selencoin.for-biz.com
 ```
 
 See <a href="/doc">installation notes</a>
