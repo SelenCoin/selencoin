@@ -2511,39 +2511,7 @@ bool LoadBlockIndex(bool fAllowNew)
         {
             block.nNonce   = 0;
         }
-        //Change if (false  && (block.GetHash() != hashGenesisBlock))
-        //if (false  && (block.GetHash() != hashGenesisBlock)) {
 
-        // This will figure out a valid hash and Nonce if you're
-        // creating a different genesis block:
-        //    uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
-        //    while (block.GetHash() > hashTarget)
-        //       {
-        //           ++block.nNonce;
-        //           if (block.nNonce == 0)
-        //           {
-        //               printf("NONCE WRAPPED, incrementing time");
-        //               ++block.nTime;
-        //
-        //           }
-        //       }
-        //       printf("++++++++++++++++++++++++++++++++++++++%s\n", hashTarget);
-        //}
-        //printf("%s\n===================================%s\n");
-        //block.print();
-        //printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot);
-        //printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-        //printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-        //printf("block.nTime = %u \n", block.nTime);
-        //printf("block.nNonce = %u \n", block.nNonce);
-        //printf("- 1 -%s\n");
-        //// debug print
-        //assert(block.hashMerkleRoot == uint256("0xf77d5ddff55768d8a6d6bde6f460e2ca21b3e917e8c801dc5016b51797339b57"));
-        //block.print();
-        //assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
-        //assert(block.CheckBlock());
-
-        // Start new block file
         unsigned int nFile;
         unsigned int nBlockPos;
         if (!block.WriteToDisk(nFile, nBlockPos))
