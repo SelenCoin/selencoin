@@ -13,6 +13,7 @@
 - Total coins: in 159680000 blocks<br>
 - Premined coins: 1.25%
 - Block mature: 20 confirmations<br>
+- POS maturation time: min- 2h, max - 24h
 - Block Explorer <a href="http://selencoin.for-biz.com/exp/">http://selencoin.for-biz.com/exp/</a>
 
 ===<br>
