@@ -10,7 +10,7 @@
 - Algorithm: POS<br>
 - Ticker: SEL<br>
 - PoS 100% Annual Interest<br>
-- Total coins: 159680000<br>
+- Total coins: in 159680000 blocks<br>
 - Premined coins: 1.25%
 - Block mature: 20 confirmations<br>
 - Block Explorer <a href="http://selencoin.for-biz.com/exp/">http://selencoin.for-biz.com/exp/</a>
